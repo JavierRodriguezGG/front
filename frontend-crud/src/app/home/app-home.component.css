@@ -1,0 +1,39 @@
+
+body {
+  height: 100%;
+  background-color: #54264A;
+}
+
+.container-hero{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.hero-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.container-hero .hero-text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text {
+  color: #FFF;
+}
+.categorias{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
